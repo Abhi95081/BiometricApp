@@ -155,7 +155,7 @@ fun BiometricScreen() {
                     verticalArrangement = Arrangement.spacedBy(24.dp)
                 ) {
                     Icon(
-                        imageVector = Icons.Default.Fingerprint,
+                        painter = painterResource(id = R.drawable.fingerprint_icons),
                         contentDescription = "Fingerprint",
                         modifier = Modifier.size(80.dp),
                         tint = MaterialTheme.colorScheme.primary
